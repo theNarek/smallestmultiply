@@ -33,7 +33,8 @@ function solve() {
             }
         }
 
-        resultBox.innerHTML = '<b>Առաջին թվի բազմապատիկներն են՝ </b>' + firstArray + '<br>' + '<b>Երկրորդ թվի բազմապատիկներն են՝ </b>' + secondArray + '<br> <p style="color: green;">' + firstNum + ' և ' + secondNum + ' թվերի ամենափոքր ընդհանուր բազմապատիկը ' + resultsArray[0] + '-ն է:</p>';
+        // resultBox.innerHTML = '<b>Առաջին թվի բազմապատիկներն են՝ </b>' + firstArray + '<br>' + '<b>Երկրորդ թվի բազմապատիկներն են՝ </b>' + secondArray + '<br> <p style="color: green;">' + firstNum + ' և ' + secondNum + ' թվերի ամենափոքր ընդհանուր բազմապատիկը ' + resultsArray[0] + '-ն է:</p>';
+        resultBox.innerHTML = '<p style="color: green;">' + firstNum + ' և ' + secondNum + ' թվերի ամենափոքր ընդհանուր բազմապատիկը ' + resultsArray[0] + '-ն է:</p>';
     } else {
         resultBox.innerHTML = "<p style='color: red;'>Լրացրեք դաշտերը</p>";
     }
