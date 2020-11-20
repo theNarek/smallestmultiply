@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');  
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body {
+    background: #ecf0f1;
+    margin: 15px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container input[type=button] {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 8px 13px;
+    background: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    box-shadow: 0 4px 1px #ccc;
+    outline: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #888;
+}
+.container input[type=button]:active{ 
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.container #result {
+    margin: 10px 0;
+}
