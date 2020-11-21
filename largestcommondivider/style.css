@@ -33,3 +33,21 @@ body {
 .container #result {
     margin: 10px 0;
 }
+.container .inputBox {
+    margin: -5px;
+}
+.sMultiply {
+    background: #fff;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 15px;
+    color: #888;
+    text-decoration: none;
+    transition: .3s;
+}
+.sMultiply:hover {
+    background: #263238;
+    color: #ecf0f1;
+}
