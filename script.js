@@ -1,3 +1,4 @@
+// ! outdated script
 function solve() {
     var firstNum = Number(document.getElementById('firstNum').value),
         secondNum = Number(document.getElementById('secondNum').value),
