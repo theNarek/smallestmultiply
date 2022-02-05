@@ -6,7 +6,7 @@ function solve() {
     for (var i = 0; i <= firstNum && i <= secondNum; i++) {
         if (firstNum % i == 0 && secondNum % i == 0) {
             var lastNum = i;
-            resultBox.innerHTML = '<p style="color: green;">' + firstNum + ' և ' + secondNum + ' թվերի ամենամեծ ընդհանուր բաժանարարը ' + lastNum + '-ն է։ </p>';
+            resultBox.innerHTML = '<p style="color: green;"> The largest common divider of numbers ' + firstNum + ' and ' + secondNum + ' is ' + lastNum + '. </p>';
         }
     }
 }
